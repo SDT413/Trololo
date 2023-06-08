@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" onMouseEntered="#Nooo" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.trololo.TrololoController">
+   <children>
+      <Button fx:id="no" layoutX="412.0" layoutY="188.0" mnemonicParsing="false" onMouseEntered="#Nooo" text="Нет">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+      <Label fx:id="label" layoutX="188.0" layoutY="93.0" text="Ты идиот?">
+         <font>
+            <Font size="48.0" />
+         </font>
+      </Label>
+      <Button fx:id="yes" layoutX="126.0" layoutY="188.0" mnemonicParsing="false" onAction="#Yes" text="Да" underline="true">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Button>
+   </children>
+</AnchorPane>
